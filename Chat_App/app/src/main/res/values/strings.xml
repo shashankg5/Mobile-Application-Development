@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Homework7</string>
+    <string name="email" />
+    <string name="pass" />
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="fname" />
+    <string name="lname" />
+    <string name="signEmail" />
+    <string name="pass1" />
+    <string name="pass2" />
+    <string name="cancel">Cancel</string>
+    <string name="sup">Sign Up</string>
+    <string name="fullName" />
+    <string name="textMessage" />
+    <string name="full" />
+    <string name="time" />
+    <string name="facebook_app_id">1199460643445839</string>
+</resources>

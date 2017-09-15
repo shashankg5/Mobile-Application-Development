@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "312168072847",
+    "firebase_url": "https://messagingapp-d8afd.firebaseio.com",
+    "project_id": "messagingapp-d8afd",
+    "storage_bucket": "messagingapp-d8afd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312168072847:android:6b794c0ce564b54d",
+        "android_client_info": {
+          "package_name": "com.homework7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312168072847-7m5qo7n8vdjtcsdf00sm76302s3nbh1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homework7",
+            "certificate_hash": "FC87201B6168C96BF6F0BB97CD6C394A36AC346C"
+          }
+        },
+        {
+          "client_id": "312168072847-s7s9t3lk50c1u987vqoc21lflmv341om.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpkAO-EjT7MgJm4hNh8eqMfi8TkcjQ2VA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312168072847-s7s9t3lk50c1u987vqoc21lflmv341om.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.homework7.ProfileActivity">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:id="@+id/pic"
+            android:src="@drawable/unknown"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Photo"
+            android:id="@+id/changePhoto"
+            android:layout_below="@+id/pic"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vEmailID"
+            android:enabled="false"
+            android:layout_below="@+id/changePhoto"
+            android:layout_centerHorizontal="true"
+            android:hint="Email ID" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vFullName"
+            android:enabled="false"
+            android:layout_below="@+id/vEmailID"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="30dp"
+            android:hint="Full Name" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/editFullName"
+            android:layout_alignTop="@+id/vFullName"
+            android:layout_toRightOf="@+id/vFullName"
+            android:src="@drawable/edit"
+            android:layout_alignBottom="@+id/vFullName"
+            android:paddingTop="30dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vGender"
+            android:enabled="false"
+            android:layout_below="@+id/vFullName"
+            android:layout_centerHorizontal="true"
+            android:hint="Gender" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/editGender"
+            android:layout_alignTop="@+id/vGender"
+            android:layout_toRightOf="@+id/vGender"
+            android:src="@drawable/edit"
+            android:layout_alignBottom="@+id/vGender" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/save"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/pic"
+            android:layout_alignStart="@+id/pic" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/close"
+            android:layout_alignTop="@+id/save"
+            android:layout_toRightOf="@+id/vGender"
+            android:layout_toEndOf="@+id/vGender" />
+
+</RelativeLayout>

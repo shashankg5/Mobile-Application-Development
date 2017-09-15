@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Group6_HW06</string>
+    <string name="savedLoc" />
+    <string name="savedTemp" />
+    <string name="savedTime" />
+    <string name="dayTemp" />
+    <string name="dateDis" />
+    <string name="timeDis" />
+    <string name="tText">Temperature</string>
+    <string name="temperature" />
+    <string name="title">Daily Forecast for</string>
+    <string name="midTitle">Three Hourly Forecast on</string>
+</resources>
